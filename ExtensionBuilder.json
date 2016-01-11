@@ -1,0 +1,148 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    47,
+                    67
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": true,
+                    "_default2_new_create": true,
+                    "_default3_edit_update": true,
+                    "_default4_delete": true,
+                    "customActions": [
+                        "approve"
+                    ]
+                },
+                "name": "Request",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "Gebetsanliegen",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "677106347295"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "name",
+                            "propertyType": "String",
+                            "uid": "1401479437134"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "showName",
+                            "propertyType": "Boolean",
+                            "uid": "357048844897"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "email",
+                            "propertyType": "String",
+                            "uid": "66513208798"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "request",
+                            "propertyType": "Text",
+                            "uid": "198676453615"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "Gebetsanliegen und -kalender der Volksmission Freudenstadt",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 6.2\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "6.2",
+            "version": ""
+        },
+        "extensionKey": "vmfds_prayers",
+        "name": "Gebetsanliegen und -kalender",
+        "originalExtensionKey": "vmfds_prayers",
+        "persons": [
+            {
+                "company": "Volksmission Freudenstadt",
+                "email": "christoph.fischer@volksmission.de",
+                "name": "Christoph Fischer",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "Request=>list,show,new,create,edit,update,delete,approve",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "key": "requests",
+                "name": "Gebetsanliegen"
+            },
+            {
+                "actions": {
+                    "controllerActionCombinations": "",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "key": "kool",
+                "name": "Gebetskalender"
+            },
+            {
+                "actions": {
+                    "controllerActionCombinations": "",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "key": "external",
+                "name": "Externe Gebetskalender"
+            }
+        ],
+        "vendorName": "VMFDS"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2016-01-11 02:41",
+        "extension_builder_version": "6.2.0",
+        "be_user": "Christoph Fischer (1)"
+    }
+}

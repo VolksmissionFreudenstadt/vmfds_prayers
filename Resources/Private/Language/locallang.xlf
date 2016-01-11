@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-01-11T14:41:08Z" product-name="vmfds_prayers">
+		<header/>
+		<body>
+			<trans-unit id="tx_vmfdsprayers_domain_model_request">
+				<source>Request</source>
+			</trans-unit>
+			<trans-unit id="tx_vmfdsprayers_domain_model_request.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_vmfdsprayers_domain_model_request.show_name">
+				<source>Show Name</source>
+			</trans-unit>
+			<trans-unit id="tx_vmfdsprayers_domain_model_request.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_vmfdsprayers_domain_model_request.request">
+				<source>Request</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
